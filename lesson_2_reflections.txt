@@ -5,3 +5,11 @@ What happens when you initialize a repository? Why do you need to do it?
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
     The staging area is under control of git, whereas the working directory itself isn't. The repository is like a git directory, but it doesn't offer such a functionality as managing difference between files, which the staging area does.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+    Whenever I made changes to a file, I can use the staging area to register the change. 
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+     When some trial is needed, branches will help.
